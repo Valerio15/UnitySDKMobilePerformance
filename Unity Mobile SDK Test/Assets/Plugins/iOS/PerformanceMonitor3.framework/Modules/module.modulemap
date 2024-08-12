@@ -1,0 +1,6 @@
+framework module PerformanceMonitor3 {
+  umbrella header "PerformanceMonitor3.h"
+  export *
+
+  module * { export * }
+}
