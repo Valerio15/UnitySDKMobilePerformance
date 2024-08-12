@@ -1,0 +1,8 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="EntitySpawner">
+			<method name="SpawnEntities"/>
+			<method name="SpawnEntities"/>
+		</type>
+	</assembly>
+</linker>
