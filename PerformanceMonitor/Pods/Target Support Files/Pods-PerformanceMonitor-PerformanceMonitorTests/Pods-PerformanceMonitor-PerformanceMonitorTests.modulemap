@@ -1,0 +1,6 @@
+framework module Pods_PerformanceMonitor_PerformanceMonitorTests {
+  umbrella header "Pods-PerformanceMonitor-PerformanceMonitorTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
