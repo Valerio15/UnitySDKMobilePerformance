@@ -1,0 +1,658 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PerformanceMonitor"
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "PerformanceMonitor"
+      },
+      {
+        "kind": "Import",
+        "name": "GPUUtilization",
+        "printedName": "GPUUtilization",
+        "declKind": "Import",
+        "moduleName": "PerformanceMonitor"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PerformanceMonitor",
+        "printedName": "PerformanceMonitor",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PerformanceMonitor",
+                "printedName": "PerformanceMonitor.PerformanceMonitor",
+                "usr": "c:@M@PerformanceMonitor@objc(cs)PerformanceMonitor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PerformanceMonitorAAC6sharedABvpZ",
+            "mangledName": "$s18PerformanceMonitorAAC6sharedABvpZ",
+            "moduleName": "PerformanceMonitor",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PerformanceMonitor",
+                    "printedName": "PerformanceMonitor.PerformanceMonitor",
+                    "usr": "c:@M@PerformanceMonitor@objc(cs)PerformanceMonitor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PerformanceMonitorAAC6sharedABvgZ",
+                "mangledName": "$s18PerformanceMonitorAAC6sharedABvgZ",
+                "moduleName": "PerformanceMonitor",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timer",
+            "printedName": "timer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Timer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Timer",
+                    "printedName": "Foundation.Timer",
+                    "usr": "c:objc(cs)NSTimer"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PerformanceMonitorAAC5timerSo7NSTimerCSgvp",
+            "mangledName": "$s18PerformanceMonitorAAC5timerSo7NSTimerCSgvp",
+            "moduleName": "PerformanceMonitor",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Timer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Timer",
+                        "printedName": "Foundation.Timer",
+                        "usr": "c:objc(cs)NSTimer"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PerformanceMonitorAAC5timerSo7NSTimerCSgvg",
+                "mangledName": "$s18PerformanceMonitorAAC5timerSo7NSTimerCSgvg",
+                "moduleName": "PerformanceMonitor",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Timer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Timer",
+                        "printedName": "Foundation.Timer",
+                        "usr": "c:objc(cs)NSTimer"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PerformanceMonitorAAC5timerSo7NSTimerCSgvs",
+                "mangledName": "$s18PerformanceMonitorAAC5timerSo7NSTimerCSgvs",
+                "moduleName": "PerformanceMonitor",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PerformanceMonitorAAC5timerSo7NSTimerCSgvM",
+                "mangledName": "$s18PerformanceMonitorAAC5timerSo7NSTimerCSgvM",
+                "moduleName": "PerformanceMonitor",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cpuUsage",
+            "printedName": "cpuUsage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PerformanceMonitorAAC8cpuUsageSdvp",
+            "mangledName": "$s18PerformanceMonitorAAC8cpuUsageSdvp",
+            "moduleName": "PerformanceMonitor",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PerformanceMonitorAAC8cpuUsageSdvg",
+                "mangledName": "$s18PerformanceMonitorAAC8cpuUsageSdvg",
+                "moduleName": "PerformanceMonitor",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PerformanceMonitorAAC8cpuUsageSdvs",
+                "mangledName": "$s18PerformanceMonitorAAC8cpuUsageSdvs",
+                "moduleName": "PerformanceMonitor",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PerformanceMonitorAAC8cpuUsageSdvM",
+                "mangledName": "$s18PerformanceMonitorAAC8cpuUsageSdvM",
+                "moduleName": "PerformanceMonitor",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "memoryUsage",
+            "printedName": "memoryUsage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PerformanceMonitorAAC11memoryUsageSdvp",
+            "mangledName": "$s18PerformanceMonitorAAC11memoryUsageSdvp",
+            "moduleName": "PerformanceMonitor",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PerformanceMonitorAAC11memoryUsageSdvg",
+                "mangledName": "$s18PerformanceMonitorAAC11memoryUsageSdvg",
+                "moduleName": "PerformanceMonitor",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PerformanceMonitorAAC11memoryUsageSdvs",
+                "mangledName": "$s18PerformanceMonitorAAC11memoryUsageSdvs",
+                "moduleName": "PerformanceMonitor",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PerformanceMonitorAAC11memoryUsageSdvM",
+                "mangledName": "$s18PerformanceMonitorAAC11memoryUsageSdvM",
+                "moduleName": "PerformanceMonitor",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gpuUsage",
+            "printedName": "gpuUsage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PerformanceMonitorAAC8gpuUsageSdvp",
+            "mangledName": "$s18PerformanceMonitorAAC8gpuUsageSdvp",
+            "moduleName": "PerformanceMonitor",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PerformanceMonitorAAC8gpuUsageSdvg",
+                "mangledName": "$s18PerformanceMonitorAAC8gpuUsageSdvg",
+                "moduleName": "PerformanceMonitor",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PerformanceMonitorAAC8gpuUsageSdvs",
+                "mangledName": "$s18PerformanceMonitorAAC8gpuUsageSdvs",
+                "moduleName": "PerformanceMonitor",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PerformanceMonitorAAC8gpuUsageSdvM",
+                "mangledName": "$s18PerformanceMonitorAAC8gpuUsageSdvM",
+                "moduleName": "PerformanceMonitor",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PerformanceMonitor@objc(cs)PerformanceMonitor",
+        "mangledName": "$s18PerformanceMonitorAAC",
+        "moduleName": "PerformanceMonitor",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "persistentCString",
+        "printedName": "persistentCString",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafeMutablePointer<Swift.Int8>?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeMutablePointer",
+                "printedName": "Swift.UnsafeMutablePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:Sp"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:18PerformanceMonitor17persistentCStringSpys4Int8VGSgvp",
+        "mangledName": "$s18PerformanceMonitor17persistentCStringSpys4Int8VGSgvp",
+        "moduleName": "PerformanceMonitor",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "hasStorage": true
+      },
+      {
+        "kind": "Function",
+        "name": "startTracking",
+        "printedName": "startTracking()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)startTracking",
+        "mangledName": "$s18PerformanceMonitor13startTrackingyyF",
+        "moduleName": "PerformanceMonitor",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "stopTracking",
+        "printedName": "stopTracking()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:SP"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)stopTracking",
+        "mangledName": "$s18PerformanceMonitor12stopTrackingSPys4Int8VGSgyF",
+        "moduleName": "PerformanceMonitor",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/valerioitalia\/Desktop\/PerformanceMonitor\/PerformanceMonitor\/PerformanceMonitor.swift",
+      "kind": "FloatLiteral",
+      "offset": 214,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/valerioitalia\/Desktop\/PerformanceMonitor\/PerformanceMonitor\/PerformanceMonitor.swift",
+      "kind": "FloatLiteral",
+      "offset": 255,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/valerioitalia\/Desktop\/PerformanceMonitor\/PerformanceMonitor\/PerformanceMonitor.swift",
+      "kind": "FloatLiteral",
+      "offset": 293,
+      "length": 3,
+      "value": "0.0"
+    }
+  ]
+}

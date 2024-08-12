@@ -1,0 +1,16 @@
+PODS:
+  - GPUUtilization (0.5.0)
+
+DEPENDENCIES:
+  - GPUUtilization
+
+SPEC REPOS:
+  trunk:
+    - GPUUtilization
+
+SPEC CHECKSUMS:
+  GPUUtilization: cf389b280c631d8e78680c1613ab3cf46fb0600e
+
+PODFILE CHECKSUM: 478d87b41222a896d25fc62d266690334f873898
+
+COCOAPODS: 1.11.3
